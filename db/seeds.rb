@@ -9,6 +9,9 @@
 task1 = Task.create(name: 'Do math homework (pg.10-12)')
 task1.tags.create(name: "important")
 task1.tags.create(name: "study")
+task1.sub_tasks.create(name: 'ask teacher about pg10, q3')
+
 task2 = Task.create(name: 'Practice piano (30min)')
 task2.tags.create(name: "fun")
+
 Task.create(name: 'Continue side project (AI/ML+node.js)')
